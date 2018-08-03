@@ -27,6 +27,7 @@ func main() {
 	if entry == "" {
 		return
 	}
+
 	t := time.Now()
 	logTime := t.Format("Mon Jan 2 15:04:05 -0700 2006")
 
